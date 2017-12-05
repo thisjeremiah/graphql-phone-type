@@ -1,5 +1,7 @@
 # graphql-phone-type
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/enniel/graphql-phone-type.svg)](https://greenkeeper.io/)
+
 GraphQL schema scalar phone type, based on [libphonenumber-js](https://github.com/catamphetamine/libphonenumber-js).
 
 ## Installation

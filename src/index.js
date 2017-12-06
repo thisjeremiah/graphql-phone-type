@@ -18,7 +18,7 @@ const validator = (ast, { country = 'US', type } = {}) => {
   return value;
 };
 
-export default class GraphQLPhoneType extends GraphQLScalarType {
+export class GraphQLPhoneType extends GraphQLScalarType {
   constructor(options = {}) {
     const { name, description } = options;
     super({
@@ -42,3 +42,5 @@ export default class GraphQLPhoneType extends GraphQLScalarType {
     });
   }
 }
+
+export default GraphQLPhoneType;

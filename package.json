@@ -1,6 +1,6 @@
 {
   "name": "graphql-phone-type",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Phone Type for Graphql",
   "license": "MIT",
   "main": "lib/index.js",
